@@ -79,3 +79,35 @@
 .icon-box:hover {
     border-color: #ffc451;
 }
+
+.about li {
+    list-style-type: none;
+}
+
+.cta {
+    background: linear-gradient(rgba(2,2,2, 0.5), rgba(2,2,2, 0.8)), url(https://images.unsplash.com/photo-1544618867-50a55c8004ca?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=701&q=80) fixed center center;
+    padding: 6rem 0;
+    color: #fff;
+}
+
+.cta h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.cta-btn {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.cta-btn:hover {
+    border: 2px solid #ffc451;
+    color: #ffc451;
+}
